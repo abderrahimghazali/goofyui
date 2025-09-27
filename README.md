@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# <img src="public/goofy.png" width="60" height="60" align="center"> GoofyUI
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15.5-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-19.1-61DAFB?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![GitHub Stars](https://img.shields.io/github/stars/abderrahimghazali/goofyui?style=flat-square)](https://github.com/abderrahimghazali/goofyui/stargazers)
 
-First, run the development server:
+## A collection of the most wonderfully terrible UI designs. Frustrating? Yes. Hilarious? Absolutely! 🎨🤪
+
+This repository showcases intentionally bad UI/UX patterns that are both amusing and educational. Perfect for demonstrating what NOT to do in interface design!
+
+## 🎭 Live Demo
+
+Visit [GoofyUI](https://goofyui.vercel.app) to experience the chaos yourself!
+
+## 🎪 Featured Components
+
+### 🌍 Solar System Birthday Picker
+Forget dropdown calendars! Rotate Earth around the sun to select your birthdate. One full orbit = one year!
+
+![Solar Birthday](public/solar-birthday.gif)
+
+### 🎯 Birthday Guesser
+Why type your birthday when the computer can guess it? Uses binary search with "Earlier" and "Later" buttons. Only takes ~20 clicks!
+
+![Birthday Guesser](public/guess-birthday.gif)
+
+### 📱 Phone Number Slider
+Enter your phone number by sliding a single slider that controls all 10 digits. Features an "advanced mode" with physics simulation!
+
+![Phone Slider](public/phone-slider.gif)
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/abderrahimghazali/goofyui.git
+
+# Navigate to project directory
+cd goofyui
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 15.5** - React framework with App Router
+- **React 19.1** - UI library
+- **TypeScript** - Type safety
+- **Tailwind CSS 4.0** - Styling
+- **shadcn/ui** - Component library
+- **Radix UI** - Headless UI components
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Got a terrible UI idea? We want it!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/terrible-ui-idea`)
+3. Commit your changes (`git commit -m 'Add hilariously bad component'`)
+4. Push to the branch (`git push origin feature/terrible-ui-idea`)
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Guidelines for Bad UI
 
-## Deploy on Vercel
+- Must be functional (actually work, even if poorly)
+- Should be frustrating but not impossible
+- Bonus points for making users laugh
+- Extra bonus points for educational value
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎉 Inspiration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Inspired by the wonderful world of bad UI/UX design and the [BadUI](https://github.com/GoulartNogueira/BadUI) community.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⭐ Support
+
+If this made you laugh (or cry), give it a star!
+
+---
+
+<div align="center">
+  <p>Made with 😈 and a questionable sense of UX design</p>
+  <a href="https://github.com/abderrahimghazali/goofyui">
+    <img src="public/goofy.png" width="40" height="40">
+  </a>
+</div>
