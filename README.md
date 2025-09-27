@@ -4,7 +4,6 @@
 ![React](https://img.shields.io/badge/React-19.1-61DAFB?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 [![GitHub Stars](https://img.shields.io/github/stars/abderrahimghazali/goofyui?style=flat-square)](https://github.com/abderrahimghazali/goofyui/stargazers)
 
 ## A collection of the most wonderfully terrible UI designs. Frustrating? Yes. Hilarious? Absolutely! 🎨🤪
@@ -79,10 +78,6 @@ Got a terrible UI idea? We want it!
 ## 🎉 Inspiration
 
 Inspired by the wonderful world of bad UI/UX design and the [BadUI](https://github.com/GoulartNogueira/BadUI) community.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ⭐ Support
 
