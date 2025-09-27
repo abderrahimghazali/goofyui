@@ -15,6 +15,27 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GoofyUI - Wonderfully Terrible UI Designs",
   description: "A collection of the most wonderfully terrible UI designs. Frustrating? Yes. Hilarious? Absolutely!",
+  metadataBase: new URL('https://goofyui.vercel.app'),
+  openGraph: {
+    title: "GoofyUI - Wonderfully Terrible UI Designs",
+    description: "A collection of the most wonderfully terrible UI designs. Frustrating? Yes. Hilarious? Absolutely!",
+    images: [
+      {
+        url: '/preview.png',
+        width: 1200,
+        height: 630,
+        alt: 'GoofyUI Preview',
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "GoofyUI - Wonderfully Terrible UI Designs",
+    description: "A collection of the most wonderfully terrible UI designs. Frustrating? Yes. Hilarious? Absolutely!",
+    images: ['/preview.png'],
+  },
 };
 
 export default function RootLayout({
