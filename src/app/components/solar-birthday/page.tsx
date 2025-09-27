@@ -127,7 +127,7 @@ export default function SolarBirthdayPicker() {
     const centerY = canvas.height / 2;
 
     const angle = Math.atan2(y - centerY, x - centerX);
-    let degrees = (angle * 180 / Math.PI + 90 + 360) % 360;
+    const degrees = (angle * 180 / Math.PI + 90 + 360) % 360;
 
     // Handle year transitions
     if (lastRotation > 270 && degrees < 90) {

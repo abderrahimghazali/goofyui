@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
 
@@ -11,10 +10,9 @@ export default function PhoneSlider() {
   const [phoneValue, setPhoneValue] = useState(55555555555);
   const [advancedMode, setAdvancedMode] = useState(false);
   const [angle, setAngle] = useState(0);
-  const [speed, setSpeed] = useState(0);
   const speedRef = useRef(0);
   const valueRef = useRef(55555555555);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | undefined>(undefined);
 
   const MIN_VALUE = 10000000000;
   const MAX_VALUE = 99999999999;

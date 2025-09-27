@@ -143,7 +143,7 @@ export default function GuessBirthday() {
                 Is your birthday {formatDisplayDate(new Date(currentGuess))}?
               </p>
               <Button onClick={handleCorrect} variant="default" size="sm">
-                Yes, that's correct!
+                Yes, that&apos;s correct!
               </Button>
               <p className="text-sm text-gray-500">
                 Guesses: {guessCount}
